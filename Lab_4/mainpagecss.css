@@ -1,0 +1,67 @@
+.cls1 {
+	background-color: #c91a43;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+.but1 {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 20px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	transition: 0.02s;
+}
+
+select{
+	font-size: 14px;
+	padding: 5px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 6px;
+	border-width: 2px;
+	border-style: outset;
+}
+
+h3 {
+	font-size: 25px;
+	color: #c91a43;
+	position: relative;
+	left: 14%;
+}
+
+ul>li {
+	font-size: 20px;
+	display: flex;
+	position: relative;
+	left: 18%;
+	padding: 8px;
+	border-width: 5px;
+}
+
+.videocls {
+	position: absolute;
+	right: 5%;
+	top: 30%;
+}
+
+.final {
+	position: relative;
+	left: 47%;
+	right: 45%;
+	font-size: 14px;
+	border: solid;
+	cursor: pointer;
+	background-color: #c91a43;
+	color: #ffffff;
+	padding: 10px 20px;
+	border-radius: 8px;
+
+}

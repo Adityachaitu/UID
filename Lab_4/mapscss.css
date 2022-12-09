@@ -1,0 +1,49 @@
+.mapimg {
+	padding-left: 2.5%;
+	border-width: 5px;
+	border-color: #c91a43;
+	border-style: outset;
+}
+
+.c1 {
+	background-color: #c91a43;
+}
+
+.c1 p {
+	color: #ffffff;
+	text-shadow: black;
+	font-size: 30px;
+}
+
+p {
+	text-shadow: darkgray;
+	color: #667733;
+	font-size: 20px;
+}
+
+.spcls {
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	color: #ffffff;
+}
+
+.spcls ul {
+	display: inline-block;
+}
+
+.c2 {
+	background-color: #c91a43;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+button {
+	padding: 5px;
+	background-color: #c91a43;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 8px;
+	border-width: 2px;
+	border: solid;
+}
