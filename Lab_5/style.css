@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+hr {
+	width: 90%;
+	margin: auto;
+	color: grey;
+}
+
+.container {
+	margin: 50px auto;
+	display: flex;
+	width: 90%;
+}
+
+aside, main section {
+	background-color: white;
+	border: 1px solid grey;
+	margin-right: 15px;
+	flex: 3;
+}
+
+main {
+	flex: 7;
+}
+
+.personal-image {
+	height: 600px;
+	width: 500px;
+}
+
+.person-name {
+	color: #5c5c5c;
+	font-size: 2vw;
+	margin: 5px;
+}
+
+.person-details, .skills-list {
+	font-size: 1.2vw;
+	padding: 20px;
+	list-style: none;
+	color: #009688;
+}
+
+.person-details li {
+	margin: 10px 0px;
+}
+
+.person-details li i {
+	margin: 0px 10px;
+}
+
+.head-section {
+	color: #5c5c5c;
+	padding: 25px;
+	margin: 0px;
+	font-size: 1.6vw;
+}
+
+.skills-list li {
+	margin: 12px 0px;
+}
+
+.progress-back {
+	border: 1px solid grey;
+	border-radius: 30px;
+	height: 1.5em;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.progress {
+	height: 100%;
+	border-radius: 30px;
+	background-color: #009688;
+}
+
+.p-95 {width: 95%;}
+.p-90 {width: 90%;}
+.p-85 {width: 85%;}
+.p-75 {width: 75%;}
+.p-30 {width: 30%;}
+
+.progress h4 {
+	color: white;
+}
+
+aside i {
+	color: #009688;
+}
+
+.data-details {
+	width: 90%;
+	margin: auto;
+	padding: 30px 0px;
+}
+
+.data-details h3 {
+	color: #5c5c5c;
+	font-size: 1.3vw;
+	margin: 25px 0px;
+}
+
+.data-details > span {
+	color: #009688;
+	margin: 20px;
+	font-size: 1vw;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.data-details p {
+	color: #5c5c5c;
+	margin: 10px 0px;
+	font-size: 0.9vw;
+	letter-spacing: 0.5px;
+	line-height: 1.6;
+}
+
+#first-section {
+	margin-bottom: 60px;
+}
+
+footer {
+	margin-top: 60px;
+	width: 100%;
+	height: 150px;
+	background-color: #009688;
+	text-align: center;
+	padding: 20px 0px;
+	color: white;
+	font-weight: bold;
+	line-height: 1.5;
+	letter-spacing: 3px;
+}
+
+footer a {
+	color: white;
+	font-size: 1.3vw;
+	margin: 5px;
+}
+
+button {
+	height: 60px;
+	width: 180px;
+	margin: 20px;
+	border-radius: 30px;
+	border: solid 1px;
+	background-color: white;
+	color: #009688;
+	font-size: 1vw;
+	position: relative;
+	left: 80%;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #009688;
+	color: white;
+	transition: 1s;
+}
+
+.special {
+	color: #5c5c5c;
+	font-size: 1.2vw;
+}
+
+.running {
+	color: red;
+}
